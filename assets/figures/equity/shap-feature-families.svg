@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="768.596266pt" height="408.158125pt" viewBox="0 0 768.596266 408.158125" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Quant ML Portfolio V1 builder</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 408.158125 
+L 768.596266 408.158125 
+L 768.596266 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 142.7 366.368496 
+L 755.514341 366.368496 
+L 755.514341 28.332324 
+L 142.7 28.332324 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 142.7 351.003216 
+L 439.680799 351.003216 
+L 439.680799 319.484691 
+L 142.7 319.484691 
+z
+" clip-path="url(#p457d635bef)" style="fill: #8ea5a0"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 142.7 311.60506 
+L 511.971951 311.60506 
+L 511.971951 280.086536 
+L 142.7 280.086536 
+z
+" clip-path="url(#p457d635bef)" style="fill: #8ea5a0"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 142.7 272.206905 
+L 535.993069 272.206905 
+L 535.993069 240.688381 
+L 142.7 240.688381 
+z
+" clip-path="url(#p457d635bef)" style="fill: #8ea5a0"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 142.7 232.80875 
+L 566.228168 232.80875 
+L 566.228168 201.290226 
+L 142.7 201.290226 
+z
+" clip-path="url(#p457d635bef)" style="fill: #8ea5a0"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 142.7 193.410595 
+L 606.128271 193.410595 
+L 606.128271 161.89207 
+L 142.7 161.89207 
+z
+" clip-path="url(#p457d635bef)" style="fill: #8ea5a0"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 142.7 154.012439 
+L 656.619276 154.012439 
+L 656.619276 122.493915 
+L 142.7 122.493915 
+z
+" clip-path="url(#p457d635bef)" style="fill: #8ea5a0"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 142.7 114.614284 
+L 668.723681 114.614284 
+L 668.723681 83.09576 
+L 142.7 83.09576 
+z
+" clip-path="url(#p457d635bef)" style="fill: #8ea5a0"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 142.7 75.216129 
+L 726.332706 75.216129 
+L 726.332706 43.697605 
+L 142.7 43.697605 
+z
+" clip-path="url(#p457d635bef)" style="fill: #2f6f6a"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 142.7 366.368496 
+L 142.7 28.332324 
+" clip-path="url(#p457d635bef)" style="fill: none; stroke: #e1e7e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m64d0059ffc" d="M 0 0 
+L 0 3.5 
+" style="stroke: #5e6a67; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m64d0059ffc" x="142.7" y="366.368496" style="fill: #5e6a67; stroke: #5e6a67; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: middle; fill: #5e6a67" x="142.7" y="383.16" transform="rotate(-0 142.7 383.16)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 236.89185 366.368496 
+L 236.89185 28.332324 
+" clip-path="url(#p457d635bef)" style="fill: none; stroke: #e1e7e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m64d0059ffc" x="236.89185" y="366.368496" style="fill: #5e6a67; stroke: #5e6a67; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: middle; fill: #5e6a67" x="236.89185" y="383.16" transform="rotate(-0 236.89185 383.16)">2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 331.083699 366.368496 
+L 331.083699 28.332324 
+" clip-path="url(#p457d635bef)" style="fill: none; stroke: #e1e7e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m64d0059ffc" x="331.083699" y="366.368496" style="fill: #5e6a67; stroke: #5e6a67; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: middle; fill: #5e6a67" x="331.083699" y="383.16" transform="rotate(-0 331.083699 383.16)">4</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 425.275549 366.368496 
+L 425.275549 28.332324 
+" clip-path="url(#p457d635bef)" style="fill: none; stroke: #e1e7e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m64d0059ffc" x="425.275549" y="366.368496" style="fill: #5e6a67; stroke: #5e6a67; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: middle; fill: #5e6a67" x="425.275549" y="383.16" transform="rotate(-0 425.275549 383.16)">6</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 519.467398 366.368496 
+L 519.467398 28.332324 
+" clip-path="url(#p457d635bef)" style="fill: none; stroke: #e1e7e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m64d0059ffc" x="519.467398" y="366.368496" style="fill: #5e6a67; stroke: #5e6a67; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: middle; fill: #5e6a67" x="519.467398" y="383.16" transform="rotate(-0 519.467398 383.16)">8</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 613.659248 366.368496 
+L 613.659248 28.332324 
+" clip-path="url(#p457d635bef)" style="fill: none; stroke: #e1e7e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m64d0059ffc" x="613.659248" y="366.368496" style="fill: #5e6a67; stroke: #5e6a67; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: middle; fill: #5e6a67" x="613.659248" y="383.16" transform="rotate(-0 613.659248 383.16)">10</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 707.851098 366.368496 
+L 707.851098 28.332324 
+" clip-path="url(#p457d635bef)" style="fill: none; stroke: #e1e7e5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m64d0059ffc" x="707.851098" y="366.368496" style="fill: #5e6a67; stroke: #5e6a67; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: middle; fill: #5e6a67" x="707.851098" y="383.16" transform="rotate(-0 707.851098 383.16)">12</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: middle; fill: #5e6a67" x="449.107171" y="398.16" transform="rotate(-0 449.107171 398.16)">彙總絕對 SHAP 貢獻占比</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_15"/>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: end; fill: #5e6a67" x="139.2" y="340.139705" transform="rotate(-0 139.2 340.139705)">模型衍生交互特徵</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_16"/>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: end; fill: #5e6a67" x="139.2" y="300.74155" transform="rotate(-0 139.2 300.74155)">估值與成長</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_17"/>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: end; fill: #5e6a67" x="139.2" y="261.343395" transform="rotate(-0 139.2 261.343395)">集保－小額持股結構</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_18"/>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: end; fill: #5e6a67" x="139.2" y="221.94524" transform="rotate(-0 139.2 221.94524)">波動、下行與市場風險</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_19"/>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: end; fill: #5e6a67" x="139.2" y="182.547084" transform="rotate(-0 139.2 182.547084)">中長期動能與趨勢</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_20"/>
+     <g id="text_14">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: end; fill: #5e6a67" x="139.2" y="143.148929" transform="rotate(-0 139.2 143.148929)">產業、規模與市場情境</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_21"/>
+     <g id="text_15">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: end; fill: #5e6a67" x="139.2" y="103.750774" transform="rotate(-0 139.2 103.750774)">法人、融資融券與交易流向</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_22"/>
+     <g id="text_16">
+      <text style="font-size: 11px; font-family: 'Microsoft JhengHei'; text-anchor: end; fill: #5e6a67" x="139.2" y="64.352619" transform="rotate(-0 139.2 64.352619)">獲利品質與財務結構</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_11">
+    <path d="M 142.7 366.368496 
+L 755.514341 366.368496 
+" style="fill: none; stroke: #cfd7d4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'Microsoft JhengHei'; text-anchor: start; fill: #202726" x="449.099984" y="338.755184" transform="rotate(-0 449.099984 338.755184)">6.3%</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'Microsoft JhengHei'; text-anchor: start; fill: #202726" x="521.391136" y="299.357029" transform="rotate(-0 521.391136 299.357029)">7.8%</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'Microsoft JhengHei'; text-anchor: start; fill: #202726" x="545.412254" y="259.958873" transform="rotate(-0 545.412254 259.958873)">8.4%</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'Microsoft JhengHei'; text-anchor: start; fill: #202726" x="575.647353" y="220.560718" transform="rotate(-0 575.647353 220.560718)">9.0%</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'Microsoft JhengHei'; text-anchor: start; fill: #202726" x="615.547456" y="181.162563" transform="rotate(-0 615.547456 181.162563)">9.8%</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'Microsoft JhengHei'; text-anchor: start; fill: #202726" x="666.038461" y="141.764408" transform="rotate(-0 666.038461 141.764408)">10.9%</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'Microsoft JhengHei'; text-anchor: start; fill: #202726" x="678.142866" y="102.366253" transform="rotate(-0 678.142866 102.366253)">11.2%</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'Microsoft JhengHei'; text-anchor: start; fill: #202726" x="735.751891" y="62.968097" transform="rotate(-0 735.751891 62.968097)">12.4%</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 17px; font-family: 'Microsoft JhengHei'; text-anchor: middle; fill: #202726" x="449.107171" y="22.332324" transform="rotate(-0 449.107171 22.332324)">模型使用資訊來源：Top 8 特徵家族</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p457d635bef">
+   <rect x="142.7" y="28.332324" width="612.814341" height="338.036172"/>
+  </clipPath>
+ </defs>
+</svg>
