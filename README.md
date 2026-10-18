@@ -1,89 +1,41 @@
-# 林宇軒 — Quantitative Machine Learning Portfolio
+# 林宇軒 - Quantitative Machine Learning Portfolio
 
 **Machine Learning for Quantitative Research**
 
-以金融資料與機器學習進行台股量化研究，研究範圍涵蓋橫截面選股、日內 Tick 模型與金融資料品質驗證。除了模型預測本身，也進一步檢查交易成本、流動性、成交條件與比較基準，確認預測結果是否能轉換成實際研究價值。
+以 Python、LightGBM 與金融資料進行個人量化研究，重點是橫截面排序、時序驗證、離線研究工程及資料品質。
 
-[作品集 PDF](./LIN_YU_HSUAN_QUANT_ML_PORTFOLIO.pdf)
-·
-[Technical Appendix](./LIN_YU_HSUAN_QUANT_ML_TECHNICAL_APPENDIX.pdf)
-·
-[公開程式碼](https://github.com/sean33885566/quant-ml-research)
+[作品集 PDF](./LIN_YU_HSUAN_QUANT_ML_PORTFOLIO.pdf) · [技術附件](./LIN_YU_HSUAN_QUANT_ML_TECHNICAL_APPENDIX.pdf) · [合成資料示範程式](https://github.com/sean33885566/quant-ml-research)
 
-## 研究專案
+## 1. 台股機器學習選股研究
 
-### 1. 台股機器學習選股研究
+整合價量、財務及籌碼資料，以 LightGBM 研究未來報酬排序，建立月頻 purged walk-forward 歷史驗證、RankIC 評估及含交易限制的投組回放。
 
-**研究問題：**  
-機器學習能否排序未來表現較好的台股，並將預測轉換成具有相對投資價值的投資組合？
+分別評估模型排序能力、0050 基準比較與費後投組績效；部分歷史設定雖呈正向績效點估，但已檢查設定相對 0050 的 Sharpe 差異未達統計顯著，且 2025 年 4 月後部分市場期間的相對績效落後。研究結果尚不足以支持穩健超額報酬的宣稱。
 
-**我做了什麼：**  
-整合價量、財務與籌碼資料，以 LightGBM 測試未來 5～126 個交易日共 7 個預測期間，並使用 rolling / walk-forward 方式持續進行樣本外驗證。
+[研究方法與適用邊界](projects/taiwan-equity-ml.md)
 
-**主要結果：**  
-2019/02–2024/12 的 RankIC（模型分數排序與後續報酬排序的相關係數）為正。h22（預測未來 22 個交易日）／10 億元固定切分研究在 2023/01–2026/03 的正式評估期呈現可重現的正向相對績效；將同一組固定投組權重改以 T+1 次一交易日調整後開盤價成交，結果仍為正。其他實務帳戶檢查顯示資金規模、交易單位與基準定義會明顯影響結論，因此不宣稱為可直接部署策略。
+## 2. 金融資料品質案例
 
-`LightGBM` · `RankIC` · `Walk-forward` · `SHAP` · `Portfolio Backtest`
+以 MOPS／XBRL、TWSE 原始資料及跨欄位邏輯核對財報缺漏、欄位錯位與不可能數值，建立可重現案例後回報資料平台。部分案例獲平台確認，平台後續回覆稱已修正／回補；未宣稱已獨立全量驗收所有修正。
 
-[查看完整研究 →](projects/taiwan-equity-ml.md)
+[查看案例與來源截圖](projects/financial-data-quality.md)
 
-### 2. 台股日內 Tick 機器學習研究
+## 3. 離線研究工程
 
-**研究問題：**  
-日內模型的預測訊號，在只使用決策當下可取得資料並納入實際成交條件後，是否具有經濟價值？
+建立離線模型訓練與歷史驗證流程，依 fold 保存完成狀態並跳過已完成項目續跑，使用模型及分數產物 manifest、版本追蹤與自動化檢查，管理多個預測期間的研究結果與實驗來源。這是研究工程實作，未宣稱 production MLOps 或實盤系統。
 
-**我做了什麼：**  
-使用 112 個交易日的逐筆成交與五檔資料，建立日內特徵工程、LightGBM 回歸與三分類模型，並以事件帳戶驗證訊號在時間、流動性、門檻與五檔成交限制下的表現。
+[研究流程與驗證邊界](projects/taiwan-equity-ml.md#研究與工程實作)
 
-**主要結果：**  
-回歸與三分類模型呈現部分樣本外預測證據；高信心放空分支在事件帳戶中呈正向點估，但交易樣本仍少、Sharpe 信賴區間跨零，目前仍需要更多未參與既有研究設計的全新後續資料（fresh-forward）確認穩定性。
+## 封存研究與更正
 
-`Tick Data` · `Order Book` · `Feature Engineering` · `LightGBM` · `Execution Validation`
+Tick V3／R1 曾將未來資訊誤納為模型輸入，相關預測與交易績效主張已正式撤回。保留原網址與[完整失效說明](projects/intraday-tick-ml.md)供追溯；本項不列為主要代表成果。
 
-[查看完整研究 →](projects/intraday-tick-ml.md)
-
-### 3. 金融資料品質案例｜FinLab
-
-**研究問題：**  
-當金融資料出現歷史缺漏、欄位錯位或不可能數值時，如何確認問題來自資料，而不是模型或特徵工程？
-
-**我做了什麼：**  
-使用公開資訊觀測站（MOPS）／XBRL、臺灣證券交易所（TWSE）原始資料與欄位邏輯進行交叉確認，建立可重現案例後回報資料平台。
-
-**主要結果：**  
-找到歷史財報缺漏、法人交易欄位錯位與不可能負值等案例，其中部分問題後續獲平台確認並修正。
-
-`Data Validation` · `XBRL` · `TWSE` · `Cross-field Checks`
-
-[查看完整案例 →](projects/financial-data-quality.md)
-
-## 技術與研究工具
+## 技術與公開程式
 
 Python · pandas · NumPy · scikit-learn · LightGBM · PyTorch · SHAP · Git
 
-**研究工程與離線監控：**  
-訓練中斷續跑（checkpoint／resume） · 研究產物版本與來源追蹤 · JSON 格式檢查與自動化測試 · 資料與模型狀態檢查
+公開 [quant-ml-research](https://github.com/sean33885566/quant-ml-research) 使用合成資料與 Ridge baseline 示範時間驗證及研究控制；不等同完整真實台股 LightGBM 回測、私有 Tick 模型或實盤交易系統。
 
-研究主題包括：
+## 2026-10-18 文件修訂
 
-- time-aware / point-in-time 資料處理
-- rolling / walk-forward validation
-- cross-sectional ranking
-- transaction-cost-aware backtesting
-- Tick / order-book research
-- data-quality validation
-
-## Public Code
-
-公開程式碼另置於：
-
-**[quant-ml-research](https://github.com/sean33885566/quant-ml-research)**
-
-公開版本使用合成資料（synthetic data）示範時間驗證、資料處理與研究控制，不重新散布原始金融資料。公開可執行 demo 以 Ridge 最小可執行基準（baseline）說明流程；本作品集所述歷史研究主要使用 LightGBM。
-
-## Documents
-
-- [Recruiter Portfolio PDF](./LIN_YU_HSUAN_QUANT_ML_PORTFOLIO.pdf)
-- [Technical Appendix](./LIN_YU_HSUAN_QUANT_ML_TECHNICAL_APPENDIX.pdf)
-
-本作品集區分模型預測證據、投資組合結果與實際可交易性；未將未通過後續驗證的結果描述為可部署交易策略。
+同步撤回已不適合對外引用的舊固定切分績效與受污染的 Tick V3／R1 結果，補充 PIT 代理規則，以及 fold 層級時序外測試與策略選擇後獨立驗證的差別。保留原始歷史研究紀錄，不改寫研究歷史。
